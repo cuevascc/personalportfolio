@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+	<title>
+		Cape Caryl Cuevas - Portfolio
+	</title>
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<section>
+		<nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="navbartop">
+		  <a class="navbar-brand" href="#">CCC</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#about-me-section">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#myPortfolio">Portfolio</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</section>
+
+	<!-- Jumbotron -->
+	<section>
+		<div class="jumbotron min-vh-100 text-center m-0 d-flex flex-column justify-content-center" id="intro">
+		  <h1 class="display-5">Hello, I'm Cape Caryl.</h1>
+		  <p class="lead">Full Stack Web Developer</p>
+		  <p>
+		  	<a class="btn btn-lg" href="#contact" role="button" id="sendcontact">Let's talk!</a>
+		  </p>
+		  
+		</div>
+	</section>
+
+	<!-- About Me Section -->
+	<section class="container-fluid" id="about-me-section">	
+		<div class="row justify-content-center">
+			<div class="col-xs-12 col-lg-4 section-details">
+				<h3><strong>ABOUT MYSELF</strong></h3>
+				<br>
+				<p>
+					I am a Full Stack Web Developer based in Cebu City, Philippines. 
+					I previously worked as a Chemical Engineer. I decided to make a career change and studied programming under an intensive coding bootcamp.
+				</p>
+				<div class="pb-3" id="about-me-info">
+					<div class="row about-me-details">
+						<div class="col-xs-4 box">
+							<img src="./images/person-icon.png">
+						</div>
+						<div class="col-xs-8 txt">
+							<p>Cape Caryl R. Cuevas</p>
+						</div>
+					</div>
+					<div class="row about-me-details">
+						<div class="col-xs-4 box">
+							<img src="./images/grad-icon.png">
+						</div>
+						<div class="col-xs-8 txt">
+							<p>University of San Carlos</p>
+						</div>
+					</div>
+					<div class="row about-me-details">
+						<div class="col-xs-4 box">
+							<img src="./images/mail-icon.png">
+						</div>
+						<div class="col-xs-8 txt">
+							<p>capecarylcuevas@gmail.com</p>
+						</div>
+					</div>
+					<div class="row about-me-details">
+						<div class="col-xs-4 box">
+							<img src="./images/contact-icon.png">
+						</div>
+						<div class="col-xs-8 txt">
+							<p>+639 56-839-4595</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 section-details" id="contact">
+				<h3><strong>LET'S DISCUSS!</strong></h3>
+				<form class="pt-2">
+					<div class="form-group">
+					  <label for="exampleFormControlInput1">Full Name</label>
+					  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name here" required="">
+					</div>
+				  <div class="form-group">
+				    <label for="exampleFormControlInput1">Email address</label>
+				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email here" required="	">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleFormControlTextarea1">Message</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				  </div>
+				  <div>
+				  	<button type="submit" class="btn btn-lg btn-block submitButton">Submit</button>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+		<!-- My Portfolio -->
+		<div class="container-fluid" id="my-portfolio-section">
+			<div class="row justify-content-center">
+				<div class="col-xs-12 col-lg-8 section-details">
+					<h3><strong>MY PORTFOLIO</strong></h3>
+				</div>
+			</div>
+		</div>
+		
+	<section class="container-fluid pb-5 pt-3" id="myPortfolio">
+		<div class="d-flex justify-content-center container-fluid flex-wrap">
+			<div class="card p-2 m-3" style="width: 18rem;">
+			  <img src="./images/project-1.jpeg" class="card-img-top" alt="projects">
+			  <div class="card-body">
+			    <h5 class="card-title">My Personal Profile</h5>
+			    <p class="card-text">This is a front end development using HTML, CSS, and Bootstrap tools.</p>
+			    <a class="btn btn-lg cardButtons" href="https://cuevascc.github.io/csp1/" role="button" target="_blank">Go to Project 1</a>
+			  </div>
+			</div>
+
+
+			<div class="card p-2 m-3" style="width: 18rem;">
+			  <img src="./images/project-3.jpeg" class="card-img-top" alt="projects">
+			  <div class="card-body">
+			    <h5 class="card-title">E-commerce Web App</h5>
+			    <p class="card-text">This is a full stack development using ExpressJS, ReactJS and MongoDB tools.</p>
+			    <a class="btn btn-lg cardButtons" href="https://wizardly-kalam-e608f3.netlify.app/" role="button" target="_blank">Go to Project 2</a>
+			  </div>
+			</div>
+			
+		</div>
+	</div>
+	</section>
+
+	<!-- Pre-footer Section -->
+
+	<section class="pt-5 pb-2" id="pre-footer">
+		<div>	
+			<div class="d-flex justify-content-center flex-wrap">
+				<a href="https://www.facebook.com/sweetescaaape/" target="_blank">
+					<img src="./images/fb-icon.png" class="social-media">
+				</a>			
+				<a href="https://www.linkedin.com/in/cape-caryl-cuevas-4299501b8/" target="_blank">
+					<img src="./images/linkedin-icon.png" class="social-media">
+				</a>
+				<a href="https://github.com/cuevascc" target="_blank">
+					<img src="./images/github-icon.png" class="social-media">
+				</a>
+				<a href="https://hangouts.google.com/" target="_blank">
+					<img src="./images/hangouts-icon.png" class="social-media">
+				</a>		
+			</div>			
+		</div>
+	</section>
+
+
+	<!-- Footer Section -->
+
+	<footer id="footer">
+		<div class="d-flex flex-row justify-content-center">
+				<a href="index.html" class="pr-2 pl-3">Home</a>
+				<a href="#about-me-section" class="pr-2 pl-3">About</a>
+				<a href="#myPortfolio" class="pr-2 pl-3">Projects</a>
+				<a href="#contact" class="pr-2 pl-3">Contact</a>
+		</div>
+		<div class="d-flex flex-row justify-content-center p-1">
+			<div>
+				<span>Copyright &copy; 2021</span>
+				<span> | </span>
+				<span>All rights reserved.</span>
+			</div>	
+		</div>
+	</footer>
+
+
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>

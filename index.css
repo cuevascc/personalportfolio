@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+#intro {
+	font-family: 'Noto Sans JP', sans-serif ;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif ;
+	background-color: #ddb7ab;
+}
+
+.navbar-brand {
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 40px;
+	color:#ddb7ab; 
+}
+
+
+.jumbotron {
+	padding-top: 100px;
+	background-color: #efd9d1; 
+}
+
+.navbar-nav li {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.navbar-nav li:link {
+	color: black;
+}
+
+.navbar-nav li:hover {
+	color: #c7b18d;
+}
+
+.navbar-nav li:visited {
+	color: #c7b18d;
+}
+
+#navbartop {
+	background-color:#ddb7ab ;
+}
+
+#sendcontact {
+	background-color: #ddb7ab;
+	border-radius: 1rem;
+	transition-duration: 0.4s;
+}
+
+#sendcontact:hover {
+	background-color: #f4eeec;
+}
+
+.title-section	{
+	font-size: 25px;
+}
+
+
+#about-me-section {
+	padding-top: 2rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 5px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#my-portfolio-section {
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.section-details > h3 > strong {
+	color:#efd9d1 ;
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt > p {
+	vertical-align: center;
+	margin: 10px;
+	font-size: 15px;
+}
+
+.about-me-details {
+	margin-left: 5px;
+}
+
+.form-control {
+	background-color: #efd9d1;
+}
+
+.btn {
+	box-shadow: none !important;
+}
+
+.form-control {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.card {
+	background-color: #efd9d1;
+}
+
+.cardButtons {
+	background-color: #ddb7ab;
+	transition-duration: 0.4s;
+	font-size: 15px;
+}
+
+.cardButtons:hover {
+	background-color: #f4eeec;
+}
+
+#pre-footer {
+	background-color:#efd9d1;
+}
+
+#footer {
+	background-color:#efd9d1 ;
+}
+
+.social-media {
+	margin: 15px;
+}
+
+
+footer div a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer div a:visited {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer div a:hover {
+	color: #ddb7ab;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer div span {
+	font-size: 12px;
+}
+
+.submitButton {
+	margin-top: 30px;
+	background-color: #efd9d1;
+	transition-duration: 0.4s;
+	font-size: 15px;
+}
+
+.submitButton:hover {
+	background-color: #f4eeec;
+}
